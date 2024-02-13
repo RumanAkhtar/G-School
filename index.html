@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Growth School</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="icon/search.png" alt="search" onclick=slide()></div>
+			<img src="icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<h1>Discover a Consultant's Approach to Problem Solving</h1>
+				<p>Learn the proven apporach used by top strategy consultants to tackele complex business challenge effectively.Solve an MBB case study LIVE with Ashwin to understand the concepts hand-on.</p>
+
+				<div class="box-container">
+					<div class="box1">
+						<img src="icon/calender.png" alt="">
+						<h5>3rd March</h5>
+					</div>
+
+					<div class="box1">
+						<img src="icon/clock.png" alt="">
+						<h5>1 PM</h5>
+						<h5>Onwards</h5>
+					</div>
+
+					<div class="box1">
+						<img src="icon/stop-watch.png" alt="">
+						<h5>2.3 Hours</h5>
+					</div>
+				</div>
+
+				<div class="register-btn">
+					<button>Register at ₹ 499 <span>1999</span></button>
+				</div>
+
+				<div class="discount-link">
+					<a href="#">click here to get team discount</a>
+				</div>
+
+
+
+			</div>
+			
+			<div class="svg-image">
+				<img src="icon/overlay.jpg" alt="">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="icon/close.png" alt=""></div>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="diffSection" id="about_section">
+		<h1>ABOUT <span>FOUNDERX</span> <br> <p>The world needs creativity and ingenuity.Don't put your dreams on holde. Start your founder's jounery today!</p></h1>
+		
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="icon/img.jpg">
+				</div>
+				<div class="side-text">
+					<p> <img src="icon/arrow.png" alt=""> Master a <span>structured approach</span> to buliding a tect venture</p></span><br>
+					<p> <img src="icon/arrow.png" alt=""> <span>Get coached by </span>Get coached by India's top 1% founders, operators and ivestors</p><br>
+					<p><img src="icon/arrow.png" alt=""> <span>Learn by doing</span> Learn by doing-work on actual startup ideas in a real-world startup team simulation</p><br>
+					<p><img src="icon/arrow.png" alt=""> <span>Expand your network</span> int the community of like-minded pers</p><br>
+					<p><img src="icon/arrow.png" alt=""> <span>Find your co-founder</span> & your core team among the fellows and alumni</p>
+				</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; color: #EE5417;">But, <br> <span style="color: black;">Why should you become a Mindful</span></p></center>
+		
+		</div>
+		<a href="#"><div class="s-card"><img src="icon/1.png"><p>Free Online Computer Courses</p></div></a>
+		<a href="#"><div class="s-card"><img src="icon/2.png"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="icon/3.png"><p>Online Video Lectures</p></div></a>
+		<a href="#"><div class="s-card"><img src="icon/4.png"><p>Sample Papers of Various Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="icon/5.png"><p>Performance and Ranking Report</p></div></a>
+	</div>
+
+<div id="makeitfull">
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<h1>Crash course Launch Offer (Save INR 1779)</h1>
+				<ul>
+					<li>Learn the toolkit of the professional in just 3 hours</li>
+					<li>Enjoy the discounted price of ₹ 299</li>
+				</ul>
+			</div>
+			<div class="rev-cont">
+				<p>Price of the Program</p>
+				<h1>₹499</h1>
+				<button>Register Now</button>
+			</div>
+		</div>
+	</div>
+	<div class="rev-container-2">
+		<div class="time-container">
+			<h1>Time is running out. <br> Grab your spot fast</h1>
+			<div class="timer">
+				<div class="time" id="timer">20:45:21</div>
+				<div class="btn-container">
+				 <button onclick="startTimer()">Hours</button>
+				 <button onclick="stopTimer()">Minutes</button>
+				 <button onclick="resetTimer()">Second</button>
+				</div>
+			</div>
+			<script>
+				let timerInterval;
+				let seconds = 21;
+				let minutes = 45;
+				let hours = 20;
+			
+				function startTimer() {
+					timerInterval = setInterval(updateTimer, 1000);
+				}
+			
+				function stopTimer() {
+					clearInterval(timerInterval);
+				}
+			
+				function resetTimer() {
+					clearInterval(timerInterval);
+					seconds = 21;
+					minutes = 45;
+					hours = 20;
+					document.getElementById('timer').innerText = formatTime(hours) + ':' + formatTime(minutes) + ':' + formatTime(seconds);
+				}
+			
+				function updateTimer() {
+					seconds--;
+					if (seconds < 0) {
+						seconds = 59;
+						minutes--;
+						if (minutes < 0) {
+							minutes = 59;
+							hours--;
+							if (hours < 0) {
+								stopTimer();
+								resetTimer();
+							}
+						}
+					}
+					document.getElementById('timer').innerText = formatTime(hours) + ':' + formatTime(minutes) + ':' + formatTime(seconds);
+				}
+			
+				function formatTime(time) {
+					return time < 10 ? '0' + time : time;
+				}
+			
+				// Initialize the timer display
+				document.getElementById('timer').innerText = formatTime(hours) + ':' + formatTime(minutes) + ':' + formatTime(seconds);
+			</script>
+			
+			<div class="register-btn-2">
+				<button>Register at ₹ 499 <span>1999</span></button>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-container">
+				<div class="left-col">
+					<img src="icon/logo.png" style="width: 200px;">
+					<div class="logo"></div>
+					<div class="social-media">
+						<a href="#"><img src="icon\fb.png"></a>
+						<a href="#"><img src="icon\insta.png"></a>
+						<a href="#"><img src="icon\tt.png"></a>
+						<a href="#"><img src="icon\ytube.png"></a>
+						<a href="#"><img src="icon\linkedin.png"></a>
+					</div><br><br>
+					<p class="rights-text">Copyright © 2024 Created By Ruman Akhtar All Rights Reserved.</p>
+					<br><p><img src="icon/location.png"> XYZ College near super mart<br>INDIA</p><br>
+					<p><img src="icon/phone.png"> 91-5654-256-10<br><img src="icon/mail.png">&nbsp; xyz21215@gmail.com/p>
+				</div>
+				<div class="right-col">
+					<h1 style="color: #fff">Our Newsletter</h1>
+					<div class="border"></div><br>
+					<p>Enter Your Email to get our News and updates.</p>
+					<form class="newsletter-form">
+						<input class="txtb" type="email" placeholder="Enter Your Email">
+						<input class="btn" type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+	
+
+</body>
+</html>
